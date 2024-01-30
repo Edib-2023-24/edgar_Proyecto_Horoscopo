@@ -1,0 +1,3 @@
+Todas las imagenes deben ser SVG
+Se tiene que hacer todo en Grid
+No se puede usar ni padding ni margin
