@@ -1,0 +1,67 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.titulo{
+    grid-row: 1;
+    grid-column: 3/5;
+}
+.rata{
+    grid-row: 2;
+    grid-column: 1;
+}
+.buey{
+    grid-row: 3;
+    grid-column: 1;
+}
+.tigre{
+    grid-row: 2;
+    grid-column: 2;
+}
+.conejo{
+    grid-row: 3;
+    grid-column: 2;
+}
+.dragon{
+    grid-row: 2;
+    grid-column: 3;
+}
+.caballo{
+    grid-row: 3;
+    grid-column: 3;
+}
+.serpiente{
+    grid-row: 2;
+    grid-column: 4;
+}
+.cabra{
+    grid-row: 3;
+    grid-column: 4;
+}
+.mono{
+    grid-row: 2;
+    grid-column: 5;
+}
+.gallo{
+    grid-row: 3;
+    grid-column: 5;
+}
+.perro{
+    grid-row: 2;
+    grid-column: 6;
+}
+.cerdo{
+    grid-row: 3;
+    grid-column: 6;
+}
