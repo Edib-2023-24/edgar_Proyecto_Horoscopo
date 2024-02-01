@@ -14,17 +14,26 @@ body{
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(5,1fr);
     gap: 10px;
-    align-items: center;
-    text-align: center;
+    place-items: center;
 }
 .container section{
-    width: 180px;
-    height: 180px;
+    display: grid;
+    width: 20vh;
+    height: 20vh;
     background-color: white;
     border-radius: 70%;
     align-self: end;
     opacity: 60%;
     cursor: pointer;
+    place-items: center;
+}
+section img{
+    width: 10vh;
+    height: 10vh;
+}
+.container h3{
+    color: white;
+    align-self: flex-start
 }
 .titulo{
     grid-row: 1;
@@ -78,5 +87,54 @@ body{
 }
 .cerdo{
     grid-row: 4;
+    grid-column: 7;
+}
+.animal1{
+    grid-row: 3;
+    grid-column: 2;
+}
+.animal2{
+    grid-row: 5;
+    grid-column: 2;
+}
+.animal3{
+    grid-row: 3;
+    grid-column: 3;
+}
+.animal4{
+    grid-row: 5;
+    grid-column: 3;
+    
+}
+.animal5{
+    grid-row: 3;
+    grid-column: 4;
+}
+.animal6{
+    grid-row: 5;
+    grid-column: 4;
+}
+.animal7{
+    grid-row: 3;
+    grid-column: 5;
+}
+.animal8{
+    grid-row: 5;
+    grid-column: 5;
+}
+.animal9{
+    grid-row: 3;
+    grid-column: 6;
+}
+.animal10{
+    grid-row: 5;
+    grid-column: 6;
+}
+.animal11{
+    grid-row: 3;
+    grid-column: 7;
+}
+.animal12{
+    grid-row: 5;
     grid-column: 7;
 }
