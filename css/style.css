@@ -22,7 +22,6 @@ body{
     height: 20vh;
     background-color: white;
     border-radius: 70%;
-    align-self: end;
     opacity: 60%;
     cursor: pointer;
     place-items: center;
@@ -137,4 +136,88 @@ section img{
 .animal12{
     grid-row: 5;
     grid-column: 7;
+}
+/*mono*/
+.container2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    place-items: center;
+}
+.container2 section{
+    display: grid;
+    background-color: white;
+    border-radius: 70%;
+    opacity: 60%;
+    cursor: pointer;
+    place-items: center;
+}
+.mono_main{
+    grid-row: 2/5;
+    grid-column: 2/4;
+    width: 40vh;
+    height: 40vh;
+}
+.mono_main img{
+    width: 20vh;
+    height: 20vh;
+}
+.container2 h3{
+    color: white;
+}
+.container2 .mono{
+    grid-row: 4;
+    grid-column: 2/4;
+    align-self: flex-end;
+}
+.compatibles{
+    grid-row: 3;
+    grid-column: 5/8;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+}
+
+.mono_rata{
+    grid-row: 3;
+    grid-column: 5;
+    width: 20vh;
+    height: 20vh;
+}
+.mono_dragon{
+    grid-row: 3;
+    grid-column: 6;
+    width: 20vh;
+    height: 20vh;
+
+}
+.mono_serpiente{
+    grid-row: 3;
+    grid-column: 7;
+    width: 20vh;
+    height: 20vh;
+}
+.flecha {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid #fff;
+    animation: animacionFlecha 2s infinite;
+
+    grid-row: 3;
+    grid-column: 4;
+}
+@keyframes animacionFlecha {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
 }
