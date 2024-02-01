@@ -173,11 +173,25 @@ section img{
     grid-column: 2/4;
     align-self: flex-end;
 }
+.container2 .rata{
+    grid-row: 4;
+    grid-column: 5;
+    align-self: flex-start;
+}
+.container2 .dragon{
+    grid-row: 4;
+    grid-column: 6;
+    align-self: flex-start;
+}
+.container2 .serpiente{
+    grid-row: 4;
+    grid-column: 7;
+    align-self: flex-start;
+}
 .compatibles{
     grid-row: 3;
-    grid-column: 5/8;
-    border: 5px solid #fff;
-    box-sizing: border-box;
+    grid-column: 4;
+    align-self: flex-start;
 }
 
 .mono_rata{
