@@ -4,6 +4,8 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+
+    background-image: url(../img/fondo.svg);
 }
 .container{
     width: 100%;
@@ -16,12 +18,19 @@ body{
     text-align: center;
 }
 .container section{
-    background-color: antiquewhite;
+    width: 180px;
+    height: 180px;
+    background-color: white;
     border-radius: 70%;
+    align-self: end;
+    opacity: 60%;
+    cursor: pointer;
 }
 .titulo{
     grid-row: 1;
     grid-column: 4/6;
+
+    color: white;
 }
 .rata{
     grid-row: 2;
